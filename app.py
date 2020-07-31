@@ -22,6 +22,7 @@ def send_pdf():
 
 @app.route("/", methods=["POST"])
 def contacting():
+    print("got to the contact route")
     if request.method == "POST":
         name = request.form["name"]
         email = request.form["email"]
