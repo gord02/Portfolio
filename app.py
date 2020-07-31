@@ -18,7 +18,7 @@ def index():
 
 @app.route("/resume")
 def send_pdf():
-    return send_file('static/pdf/resume.pdf', attachment_filename='resume.pdf')
+    return send_file('static/pdf/Resume.pdf', attachment_filename='resume.pdf')
 
 @app.route("/", methods=["POST"])
 def contacting():
@@ -27,7 +27,8 @@ def contacting():
         email = request.form["email"]
         message = request.form["message"]
         contactInfo= "Name: " + name + " ,email: " + email + " ,message: " + message
-        importEmailing(contactInfo)
+        # importEmailing(contactInfo)
+        print(contactInfo)
         print("sent the email")
         
     print("about to redirect")
