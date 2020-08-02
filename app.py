@@ -22,19 +22,15 @@ def send_pdf():
 
 @app.route("/", methods=["POST"])
 def contacting():
-    print("got to the contact route")
+    name, email, message, contactingInfo = None, None, None, None
     if request.method == "POST":
         name = request.form["name"]
         email = request.form["email"]
         message = request.form["message"]
-        contactInfo= "Name: " + name + " ,email: " + email + " ,message: " + message
-        # importEmailing(contactInfo)
-        print(contactInfo)
-        print("sent the email")
-        
-    print("about to redirect")
+        contactInfo= "Name: " + name + "\n" "email: " + email +  "\n" "message: " + message
+        importEmailing(contactInfo)
+        # print(contactInfo)
     return redirect("/")
-
 
 # Catch All routing
 @app.route("/", defaults={'u_path': ""})

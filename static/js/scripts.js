@@ -178,7 +178,7 @@
 					countNum: countTo
 				},
 				{
-					duration: 500,
+					duration: 1500,
 					easing: 'swing',
 					step: function() {
 					$this.text(Math.floor(this.countNum));
@@ -197,13 +197,13 @@
 
     /* Move Form Fields Label When User Types */
     // for input and textarea fields
-    $("input, textarea").keyup(function(){
-		if ($(this).val() != '') {
-			$(this).addClass('notEmpty');
-		} else {
-			$(this).removeClass('notEmpty');
-		}
-    });    
+    // $("input, textarea").keyup(function(){
+	// 	if ($(this).val() != '') {
+	// 		$(this).addClass('notEmpty');
+	// 	} else {
+	// 		$(this).removeClass('notEmpty');
+	// 	}
+    // });    
 
     /* Back To Top Button */
     // create the back to top button
