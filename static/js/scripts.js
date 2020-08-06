@@ -92,10 +92,10 @@
     /* Image Slider - Swiper */
     var imageSlider = new Swiper('.image-slider', {
         autoplay: {
-            delay: 2000,
+            delay: 750,
             disableOnInteraction: false
 		},
-        loop: false,
+        loop: true,
         navigation: {
 			nextEl: '.swiper-button-next',
 			prevEl: '.swiper-button-prev',
