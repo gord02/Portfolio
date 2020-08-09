@@ -28,6 +28,14 @@ Colors:
 /******************************/
 /*     01. General Styles     */
 /******************************/
+
+.mdl {
+	background-image: url("static/images/RBA.png");
+	background-color: #4633af;
+}
+
+
+
 body,
 html {
     width: 100%;

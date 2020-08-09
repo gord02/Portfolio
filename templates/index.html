@@ -1,3 +1,15 @@
+
+
+<!--  FIX PROJECTS SO THEY ARE COMPATIBLE WITH MOBILE -->
+<!-- THE LOGOGS FORM AKILS WEBSITE -->
+
+
+
+
+
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -73,9 +85,9 @@
                 <li class="nav-item">
                     <a class="nav-link page-scroll" href="#header">HOME <span class="sr-only">(current)</span></a>
                 </li>
-                <li class="nav-item">
+                <!-- <li class="nav-item">
                     <a class="nav-link page-scroll" href="#features">INTERNSHIPS</a>
-                </li>
+                </li> -->
                 <li class="nav-item">
                     <a class="nav-link page-scroll" href="#preview">PROJECTS</a>
                 </li>
@@ -124,15 +136,19 @@
                     <h2>PROJECTS</h2>
                 </div> 
             </div> 
-            <div class="row" style= "justify-content: center; width: 100%">
-                <div class="col-lg-12" style="margin-left: 10px; width: 100%;">
-                    <div style="margin-left: 150px;">
+            <div class="row" style="margin-left: 4%;">
+                <!-- margin-left: 159px; -->
+                <div class="col-lg-12" style="margin-left: 110px; width: 100%;">
+                    <!-- style="margin-left: 10%;" -->
+                    <div >
+
                         <!-- Button trigger modal -->
-                        <button style="width: 230px; height:230px; margin: 10px; border-radius: 20px; background: linear-gradient(to right, #2C5364, #203A43, #0F2027);" type="button" class="btn btn-primary" data-toggle="modal" data-target="#mdl"> RESTFUL Blog App </button>
+                        <button style="width: 230px; height:230px; margin: 10px; border: transparent; background-color: transparent;" type="button" class="mdl" data-toggle="modal" data-target="#mdl"><img style= "height: 100%; object-fit: cover; border-radius: 20px; width: 100%;"src="static/images/RBA2.png" class="img-responsive" alt="RESTFUL blog App"> </button>
                         <!-- Modal -->
-                        <div class="modal fade" id="mdl" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                            <div class="modal-dialog modal-dialog-centered" role="document" style= "margin-left: 24.5%; background-color: wheat;">
-                                <div class="modal-content" style="width:1500px; margin: auto; margin-top: 50px;">
+                        <div class="modal fade bd-example-modal-lg" id="mdl" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                                <div class="modal-content" > 
+                                    <!-- style="width:1500px; margin: auto; margin-top: 50px;" -->
                                     <div class="modal-header">
                                         <h5 class="modal-title" id="exampleModalLabel" style="color: black;">RESTFUL Blog App </h5>
                                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -140,15 +156,13 @@
                                         </button>
                                     </div>
                                     <div style="height: 700px;" class="modal-body">
-                                        <img style= "height: 80%;"src="static/images/restfulblogapp.png" class="img-responsive" alt="RESTFUL blog App">
+                                        <img style= "height: 80%; object-fit: cover; width: 100%;"src="static/images/restfulblogapp.png" class="img-responsive" alt="RESTFUL blog App">
                                             <p  style="color: black; margin-top: 20px; text-align:center;"> 
                                                 This small web application I created was done to help teach myslef how to implement RESTFUL routing.
                                             </p>
-                                    
-
                                     </div>
                                     <div class="modal-footer">
-                                        <a class="btn btn-success"  style="margin-right: 582px;text-decoration: none;" href="https://github.com/gord02/RESTFULBlogApp">RESTFUL blog App Project on Github</a>
+                                        <a class="btn btn-success"  style="text-decoration: none;" href="https://github.com/gord02/RESTFULBlogApp">RESTFUL blog App Project on Github</a>
                                         <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
                                     </div>
                                 </div>
@@ -156,10 +170,10 @@
                         </div>
 
                         <!-- Button trigger modal -->
-                        <button style="width: 230px; height:230px; margin: 10px; border-radius: 20px; background: linear-gradient(to right, #2C5364, #203A43, #0F2027);" type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal"> YelpCamp Project</button>
+                        <button style="width: 230px; height:230px; margin: 10px; border-radius: 20px; border: transparent; background-color: transparent;" type="button" data-toggle="modal" data-target="#exampleModal"> <img style= "height: 100%; object-fit: cover;border-radius: 20px;  width: 100%;"src="static/images/YP1.png" class="img-responsive" alt="RESTFUL blog App"></button>
                         <!-- Modal -->
-                        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                            <div class="modal-dialog modal-dialog-centered" role="document" style="margin-left: 21%;">
+                        <div class="modal fade bd-example-modal-lg" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
                                 <div class="modal-content" style="width:1500px; margin: auto; margin-top: 41px;">
                                     <div class="modal-header">
                                         <h5 class="modal-title" id="exampleModalLabel" style="color: black; margin-top: 10px;">YelpCamp Project</h5>
@@ -168,13 +182,11 @@
                                         </button>
                                     </div>
                                     <div style="height: 700px;" class="modal-body">
-                                        <img style= "height: 80%; margin: auto;" src="static/images/yelpcamp.png"class="img-responsive" alt="YelpCamp Project">
+                                        <img style= "height: 80%; object-fit: cover; width: 100%;" src="static/images/yelpcamp.png"class="img-responsive" alt="YelpCamp Project">
                                         <p style="color: black; margin-top: 20px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod ipsam aperiam quae obcaecati saepe placeat laudantium soluta voluptates dolor repellat nemo reprehenderit at numquam amet ea, natus molestias inventore quam!</p>
-
                                     </div>
                                     <div class="modal-footer">
-                                        <a class="btn btn-success"  style="margin-right: 745px; text-decoration: none;"href="https://github.com/gord02/YelpCamp">YelpCamp Project on Github</a>
-
+                                        <a class="btn btn-success"  style="text-decoration: none;"href="https://github.com/gord02/YelpCamp">YelpCamp Project on Github</a>
                                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                                     </div>
                                 </div>
@@ -182,10 +194,10 @@
                         </div>
 
                         <!-- Button trigger modal -->
-                        <button style="width: 230px; height:230px; margin: 10px; border-radius: 20px; background: linear-gradient(to right, #2C5364, #203A43, #0F2027);" type="button" class="btn btn-primary" data-toggle="modal" data-target="#mdl2"> Particle Fire Simulator </button>
+                        <button style="width: 230px; height:230px; margin: 10px; border-radius: 20px; border: transparent; background-color: transparent;" type="button" data-toggle="modal" data-target="#mdl2"> <img style= "height: 100%; object-fit: cover; border-radius: 20px; width: 100%;"src="static/images/PFS3.png" class="img-responsive" alt="RESTFUL blog App"> </button>
                         <!-- Modal -->
-                        <div class="modal fade" id="mdl2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                            <div class="modal-dialog modal-dialog-centered" role="document" style="margin-left: 22%;">      
+                        <div class="modal fade bd-example-modal-lg" id="mdl2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered modal-lg" role="document">      
                                 <div class="modal-content" style="width:1500px; margin: auto; margin-top: 41px;">
                                     <div class="modal-header">
                                         <h5 class="modal-title" id="exampleModalLabel" style="color: black;">Particle Fire Simulator </h5>
@@ -194,11 +206,11 @@
                                         </button>
                                     </div>
                                     <div style="height: 700px;" class="modal-body">
-                                        <img style= "height: 80%; margin: auto;" src="static/images/particlefire.png" class="img-responsive" alt="Particle fire Simulator">
+                                        <img style= "height: 80%;object-fit: cover; width: 100%;" src="static/images/particlefire.png" class="img-responsive" alt="Particle fire Simulator">
                                         <p style="color: black; margin-top: 20px;"> Programmed the path and interaction of the particles created and subsequently visually depicted their interaction using the SDL Library. The particle fire simulator is object oriented programming projects that in essence plots colored pixels in a moving pattern that simulates a fire like object</p>
                                     </div>
                                     <div class="modal-footer">
-                                        <a class="btn btn-success"  style="margin-right: 520px; text-decoration: none;" href="https://github.com/gord02/ParticleFire">Particle fire Simulator Project on Github</a>
+                                        <a class="btn btn-success"  style="text-decoration: none;" href="https://github.com/gord02/ParticleFire">Particle fire Simulator Project on Github</a>
                                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                                     </div>
                                 </div>
@@ -207,13 +219,13 @@
                     </div>
                 </div>
 
-                <div class="col-lg-12" style="margin-left: 10px; width: 100%;">
-                    <div style="margin-left: 150px;">
+                <div class="col-lg-12" style="margin-left: 110px; width: 100%;">
+                    <div>
                         <!-- Button trigger modal -->
-                            <button style="width: 230px; height:230px; margin: 10px; border-radius: 20px; background: linear-gradient(to right, #2C5364, #203A43, #0F2027);" type="button" class="btn btn-primary" data-toggle="modal" data-target="#mdl3"> Patatap </button>
+                            <button style="width: 230px; height:230px; margin: 10px; border-radius: 20px; border: transparent; background-color: transparent; " type="button" data-toggle="modal" data-target="#mdl3"> <img style= "height: 100%; object-fit: cover; border-radius: 20px; width: 100%;"src="static/images/Pata.png" class="img-responsive" alt="RESTFUL blog App"> </button>
                         <!-- Modal -->
-                        <div class="modal fade" id="mdl3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                            <div class="modal-dialog modal-dialog-centered" role="document" style="margin-left: 20%;">
+                        <div class="modal fade bd-example-modal-lg" id="mdl3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
                                 <div class="modal-content" style="width:1500px; margin: auto; margin-top: 41px;">
                                         <div class="modal-header">
                                             <h5 class="modal-title" id="exampleModalLabel" style="color: black;">Patatap</h5>
@@ -222,11 +234,11 @@
                                             </button>
                                         </div>
                                         <div style="height: 700px;" class="modal-body">
-                                            <img style= "height: 80%; margin: auto;" src="static/images/Patatap.png" class="img-responsive" alt="Patatap">
+                                            <img style= "height: 80%; object-fit: cover; width: 100%;" src="static/images/Patatap.png" class="img-responsive" alt="Patatap">
                                             <p style="color: black; margin-top: 20px;"> This project uses libarires that import sound, these sounds are activated when any letter is pressed on keyboard which also produces a circle of varying colors</p>
                                         </div>
                                         <div class="modal-footer">
-                                            <a class="btn btn-success"  style="margin-right: 662px; text-decoration: none;" href="https://github.com/gord02/Patatap">Patatap Project on Github</a>
+                                            <a class="btn btn-success"  style="text-decoration: none;" href="https://github.com/gord02/Patatap">Patatap Project on Github</a>
                                             <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                                         </div>
                                 </div>
@@ -234,10 +246,10 @@
                         </div>
 
                         <!-- Button trigger modal -->
-                        <button style="width: 230px; height:230px; margin: 10px; border-radius: 20px; background: linear-gradient(to right, #2C5364, #203A43, #0F2027);" type="button" class="btn btn-primary" data-toggle="modal" data-target="#mdl5"> [INSERT PROJECT] </button>
+                        <button style="width: 230px; height:230px; margin: 10px; border-radius: 20px; background: linear-gradient(to right, #2C5364, #203A43, #0F2027);font-size: large;" type="button" class="btn btn-primary" data-toggle="modal" data-target="#mdl5"> [INSERT PROJECT] </button>
                         <!-- Modal -->
-                        <div class="modal fade" id="mdl5" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                            <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal fade bd-example-modal-lg" id="mdl5" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
                                 <div class="modal-content" style="width:1500px; margin: auto; margin-top: 41px;">
                                         <div class="modal-header">
                                             <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
@@ -246,6 +258,9 @@
                                             </button>
                                         </div>
                                         <div style="height: 700px;" class="modal-body">
+                                            <div id="thecontainer">
+                                                <!-- <img style= "height: 80%;"src="static/images/restfulblogapp.png" class="img-responsive" alt="RESTFUL blog App">  -->
+                                            </div>
                                             ...
                                         </div>
                                         <div class="modal-footer">
@@ -256,10 +271,10 @@
                         </div>
 
                         <!-- Button trigger modal -->
-                        <button style="width: 230px; height:230px; margin: 10px; border-radius: 20px; background: linear-gradient(to right, #2C5364, #203A43, #0F2027); " type="button" class="btn btn-primary" data-toggle="modal" data-target="#mdl6"> <p>Comming soon...</p> Exoplanets </button>
+                        <button style="width: 230px; height:230px; margin: 10px; border-radius: 20px; border: transparent; background-color: transparent;" type="button" data-toggle="modal" data-target="#mdl6"> <img style= "height: 100%; object-fit: cover; border-radius: 20px; width: 100%;"src="static/images/Exo.png" class="img-responsive" alt="RESTFUL blog App"></button>
                         <!-- Modal -->
-                        <div class="modal fade" id="mdl6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                            <div class="modal-dialog modal-dialog-centered" role="document" style="margin-left: 20%">
+                        <div class="modal fade bd-example-modal-lg" id="mdl6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
                                 <div class="modal-content" style="width:1500px; margin: auto; margin-top: 41px;">
                                         <div class="modal-header">
                                             <h5 class="modal-title" id="exampleModalLabel" style="color: black;">Exoplanets</h5>
@@ -268,7 +283,7 @@
                                             </button>
                                         </div>
                                         <div style="height: 700px;" class="modal-body">
-                                            <img style= "height: 80%; margin: auto;" src="https://www.nasa.gov/sites/default/files/thumbnails/image/main_exoplanets.png" alt="Exoplanets">
+                                            <img style= "width: 100%; object-fit: cover; width: 100%;" src="https://www.nasa.gov/sites/default/files/thumbnails/image/main_exoplanets.png" alt="Exoplanets">
                                             <p  style="color: black; margin-top: 20px; text-align:center;"> This will be a full-stack web application that is essentially a catalog for exoplanet discroveries!</p>
                                         </div>
                                         <div class="modal-footer">

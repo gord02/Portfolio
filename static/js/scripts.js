@@ -58,7 +58,7 @@
 		// The delay between the changing of each phrase in milliseconds.
 		speed: 2000,
 		complete: function () {
-			// Called after the entrance animation is executed.
+			// Called after the entrance animation is executed
 		}
     });
     
