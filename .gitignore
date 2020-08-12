@@ -2,3 +2,5 @@
 .vscode/
 __pycache__
 templates/extraCode.html
+node_modules/
+__pycache__
