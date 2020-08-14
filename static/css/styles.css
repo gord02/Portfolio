@@ -34,15 +34,19 @@ Colors:
 	background-color: #4633af;
 }
 
-/* Hide scrollbar for Chrome, Safari and Opera */
+/* Hide scrollbar for Chrome, Safari and Opera
 body::-webkit-scrollbar {
 	display: none;
 }
 body {
 	-ms-overflow-style: none;  /* IE and Edge */
-	scrollbar-width: none;  /* Firefox */
+	/* scrollbar-width: none;  */
+/* } */
+
+body{
+	overflow-x: hidden;
 }
-  
+   
 
 body,
 html {
