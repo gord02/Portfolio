@@ -1,33 +1,81 @@
-/* Template: Juno - Multipurpose Landing Page Pack
-   Author: InovatikThemes
-   Created: Mar 2019
-   Description: Master CSS file
-*/
 
-/*****************************************
-Table Of Contents:
+@media only screen and (max-width: 480px) {
+	#project{
+		margin-left: 0;
+		background-color: wheat;
+		text-align: justify;
+	}
+}
+@media only screen and (max-width: 600px) {
+	
+	#projects{
+		margin-left:8%;
+		background-color: white;
+	}
+}
+@media only screen and (max-width: 600px) {
+	
+	#move{
+		margin-left:6%;
+	}
+	#remove{
+		margin-left: 0;
+		}
+	#unique{
+		margin-left:-20px;
+	}
+	#unique2{
+		margin-left:-43px;
+	}
+	#mediasRm{
+		margin-left: 30%;
+		background-color: #4633af;
+	}	
+	#socialRm{
+		margin-left:0px;
+	}
+	#divSilch{
+		margin-left: -30px;
+	}
+	#iconsRm{
+		margin-left: 0px;
+	}
+	#contain{
+		padding:20px;
+	}
+}
+#icons{
+	margin-left:-40px;
+}
+#divSil{
+	margin-left: -10px;
+}
+#socialM{
+	margin-left:-50px;
+	margin-right:10px;
+}
+#medias{
+	margin-left: 40%;
+	background-color: wheat;
+	margin-right:25px;
+}
+#position{
+	margin-left: 110px;
+	width: 100%;
+}
+#yes{
+	margin-left: 4%;
+}
+#counter3{
+	margin-left: 18px;
 
-01. General Styles
-02. Preloader
-03. Navigation
-04. Header
-05. Features
-******************************************/
-
-/*****************************************
-Colors:
-
-- Text, navbar links - white #f1f1f8
-- Buttons, bullets, icons - turquoise #00c9db
-- Navbar - navy #4633af
-- Backgrounds - dark denim #262431
-- Backgrounds - denim #2f2c3d
-******************************************/
-
-
-/******************************/
-/*     01. General Styles     */
-/******************************/
+} 
+#counter4{
+	margin-left: 65px;
+} 
+#remove{
+margin-left: 0;
+}
 
 .mdl {
 	background-image: url("static/images/RBA.png");
