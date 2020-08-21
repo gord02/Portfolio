@@ -8,6 +8,18 @@
 	#contain{
 		padding:20px;
 	}
+	#stat{
+		margin-left:27%;
+	}
+	#block{
+		display: block;
+		margin:auto;
+		padding: 20px;
+	}
+	#countDivRm{
+		display: block;
+		
+	}
 }
 @media only screen and (max-width: 600px) {
 	
@@ -17,7 +29,9 @@
 	}
 }
 @media only screen and (max-width: 600px) {
-	
+	#countDivRm{
+		display: block;
+	}
 	#move{
 		margin-left:6%;
 	}
@@ -43,6 +57,10 @@
 	#iconsRm{
 		margin-left: 0px;
 	}
+}
+#countDiv{
+	display: inline;
+	display: inline-block;
 }
 #inp{
 	color:white;
