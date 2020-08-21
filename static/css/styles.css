@@ -5,6 +5,9 @@
 		background-color: wheat;
 		text-align: justify;
 	}
+	#contain{
+		padding:20px;
+	}
 }
 @media only screen and (max-width: 600px) {
 	
@@ -39,9 +42,6 @@
 	}
 	#iconsRm{
 		margin-left: 0px;
-	}
-	#contain{
-		padding:20px;
 	}
 }
 #inp{
