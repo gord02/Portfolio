@@ -18,7 +18,7 @@ def index():
 
 @app.route("/resume")
 def send_pdf():
-    return send_file('static/pdf/Hamilton-Gordon-resume.pdf', attachment_filename='Hamilton-Gordon-resume.pdf')
+    return send_file('static/pdf/Gordon-Hamilton-Resume.pdf', attachment_filename='Gordon-Hamilton-Resume.pdf')
 
 @app.route("/", methods=["POST"])
 def contacting():
